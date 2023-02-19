@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin:0.5%;
+	overflow: auto;
+	
+}
+@media screen and (max-width: 1200px) {
+		body{
+			width: 1250px;
+			height: 2000px;
+		}
+}
+.nav{
+      text-decoration: none;
+      color:white;
+     }
+.nav1{
+	text-decoration: none;
+	color: #961615;
+}
+.phantren{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 5px;
+
+}
+
+.phantren img{
+	width: 100%;
+	height: 200px;
+}
+.search{
+	width: 100%;
+	height: 60px;
+	background-color: #525252;
+	border:1px solid;
+	margin-bottom: 5px;
+}
+
+.menu{
+  padding: 5px 0  0 4%;
+  float: left;
+  width: 96%
+}
+.menu li{
+	list-style: none;
+	float: left;
+	color: white;
+	margin: 5px;
+	font-size: 21px;
+	width: 12%;	
+	line-height: 40px;
+	position: relative;
+	text-align: center;
+}
+.menu li a{
+	text-decoration: none;
+    color:white;
+    display: block;
+}
+.menu li a:hover{
+	background-color: #961615;
+	border:1px solid;	
+}
+
+.search ul li >.sub-menu{
+	display: none;
+}
+.search ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+}
+.sub-menu{
+	background-color: #961615;
+}
+.sub-menu li{
+	width: 250px;
+	height: 40px;
+}
+.duongdan{
+  width: 100%;
+  height: 18px;
+  font-size: 18px;
+  padding-top: 5px; 
+  
+}
+.out button {
+  width: 80px;
+  height: 30px;
+  float: right;
+  font-size: 18px;
+  background-color: #961615;
+  margin: 10px 5% 0px 5%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px  ;
+}
+.out  a{
+  color: white;
+  text-decoration: none;
+}
+.phangiua{
+	width: 100%;
+	height: 1200px;
+	margin-bottom:10px;
+	margin-top: 10px;
+}
+.tin1{
+  width: 100%;
+  height: 24%;
+  margin-bottom:10px;
+  font-size: 20px;
+}
+.tin1 img{
+	width: 100%;
+	height: 150px;
+}
+.trai{
+	width: 80%;
+	height: 1000px;
+	float:left;	
+	font-size: 25px;
+}
+.trai h1{
+	color: #961615;
+	line-height: 35px;
+	margin: 25px 0px 20px 0px; 
+
+}
+.trai h2{
+		color: #961615;
+	margin: 40px 0px 20px 0px; 
+	text-align: center;
+	font-size: 35px;
+}
+
+
+.trai img{
+	width: 900px;	
+}
+.phai{
+	width: 20%;
+	height: 100%;
+	float:left;
+	margin-top: 5px;
+	
+}
+.phanduoi{
+	width: 100%;
+	height: 60px;
+	margin-bottom:5px;
+	background-color: #A7A4A4;
+}
